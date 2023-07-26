@@ -69,7 +69,9 @@ h3, h4 {
 section#mainContent {
     flex: 3;
     flex-wrap: wrap;
-    width: 300px;
+}
+#mainContent > h2 {
+    width: 350px;
 }
 section#greetingSec {
     flex: 1;
