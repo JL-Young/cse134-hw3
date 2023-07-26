@@ -115,14 +115,13 @@ p#greetingTxt {
 
 @media (any-hover: hover) {
     footer>h3 {
-        transition-property: color;
+        transition-property: color, opacity;
         opacity: .25;
     }
     footer>h3:hover {
         color: var(--revelle-gold);
         opacity: 1;
-        transform: translateY(-20%);
-        transition-delay: 1s;
+        transition-delay: 1.5s;
     }
 }
 
