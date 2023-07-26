@@ -80,7 +80,7 @@ section#mainContent {
     flex-wrap: wrap;
 }
 #mainContent > h2 {
-    width: 350px;
+    width: 300px;
 }
 section#greetingSec {
     flex: 1;
@@ -121,7 +121,7 @@ p#greetingTxt {
     footer>h3:hover {
         color: var(--revelle-gold);
         opacity: 1;
-        transition-delay: 1.5s;
+        transition-delay: 1s;
     }
 }
 
