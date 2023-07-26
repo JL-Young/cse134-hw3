@@ -118,17 +118,17 @@ p#greetingTxt {
     }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (width <= 640px) {
     body {
         background-image: url(./files/pexels-clarissa-schwarz-1280.jpg);
     }
 }
-@media only screen and (max-width: 1280px) {
+@media only screen and (640px < width < 1280) {
     body {
         background-image: url(./files/pexels-clarissa-schwarz-1920.jpg);
     }   
 }
-@media only screen and (min-width: 1280px) {
+@media only screen and (width >= 1280px) {
     body {
         background-image: url(./files/pexels-clarissa-schwarz-5466.jpg);
     }
