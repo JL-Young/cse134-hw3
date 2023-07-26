@@ -77,7 +77,6 @@ section {
 
 section#mainContent {
     flex: 3;
-    flex-wrap: wrap;
 }
 #mainContent > h2 {
     width: 300px;
